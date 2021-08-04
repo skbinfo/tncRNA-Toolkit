@@ -85,11 +85,13 @@ if [ -d "$MODDIR" ]; then
 		rec=${outdir}/tRNA_modification.txt
 		if [ ! -f "$rec" ]; then
 			echo "-- No Modification site found on mature tRNAs/leader-tRNAs/trailer-tRNAs region --"
+			rm -f ${outdir}/hamr.run
 		fi
 	else
 		echo ""
 		echo "-- No Modification site found on mature tRNAs/leader-tRNAs/trailer-tRNAs region --"
 		echo ""
+		rm -f ${outdir}/hamr.run
 	fi
 else
 	echo ""
