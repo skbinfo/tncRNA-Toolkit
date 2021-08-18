@@ -1,4 +1,5 @@
 #!/usr/bin/awk -f
+# @AJeet Singh: singh.ajeet@nipgr.ac.in
 #Assign the modification to tncRNA
 BEGIN{FS="\t";}
 {
