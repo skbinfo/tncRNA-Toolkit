@@ -1,4 +1,5 @@
 #!/bin/sh
+# @AJeet Singh: singh.ajeet@nipgr.ac.in
 #This script reclassify the classified tncRNA based on anticodon loop
 tncRNA=$1
 ac_pos=$2
