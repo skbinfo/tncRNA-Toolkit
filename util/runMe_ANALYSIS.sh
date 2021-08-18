@@ -1,5 +1,5 @@
 #! /bin/bash
-
+# @AJeet Singh: singh.ajeet@nipgr.ac.in
 #command args 
 while getopts 'x:i:v:m:o:l:t:p:h' c
 do
