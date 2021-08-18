@@ -10,35 +10,40 @@
 
  website: http://www.nipgr.ac.in/tncRNA
                                                                       
- Bioinformatics Laboratory #202, National Institute of Plant Genome Research (NIPGR) New Delhi, INDIA
+ Bioinformatics Laboratory 202, National Institute of Plant Genome Research (NIPGR) New Delhi, INDIA
 -------------------------------------------------------------------------------------------------------
 
- tncRNA is a workflow to detect tRNA derived non-coding RNAs, viz. tRF-5s, tRF-3s, tRF-1, and tRNA halves.
- It is written in the Python(v3) programming language, with additional shell scripts. Input consists of 
- genome fasta and single-end small RNA reads fastq file. tncRNA gives output files in tsv format.
+ tncRNA Toolkit is a workflow to detect tRNA derived non-coding RNAs, viz. tRF-5s, tRF-3s, tRF-1, and tRNA halves.
+ Input consists of genome fasta and single-end small RNA reads fastq file.
 
  For more usage and output details, visit Manual page at "http://nipgr.ac.in/tncRNA/".
 
 -------------------------------------------------------------------------------------------------------
- 1. Brief Introduction
 
-This pipeline, tncRNA, is designed for the identification of tRNA-derived small ncRNAs (tncRNAs) from high throughput sequencing data. This is built in the python3, alongwith shell/bash programming language. It can detect tncRNAs generating from either mature tRNAs or their leader or trailer sequences (upto 50 bp) viz. tRF-5, tRF-3(CCA), tRF-1, leader tRFs, 5’ tRH, 3’ tRH(CCA) and other-tRFs depending upon their site of cleavage on their parental tRNAs and length.
-
-2. Prerequisites
-
+## Dependecies:
 1. python3
+
 Python modules: pandas (v1.1.0), biopython (v1.77)
+
 Python module can be easily installed by following command:
-pip3 install <module name> --user
+
+<code>pip3 install < module name > --user</code>
+
 2. tRNAscan-SE (v2.0.6)
+ 
 3. samtools (v1.10)
+
 4. bedtools (v2.29.2)
+       
 [Note: python3, tRNAscan-SE, samtools, and bedtools are needed to be globaly installed or included it in the path.]
+       
 5. Bowtie1 (v1.3.0)
+       
 6. HAMR (v1.2)
+       
 [Note: bowtie1, and HAMR are already provided in tar package.]
        
-3. Installation
+## Installation:
 
 Extract the tarball using the command:
 
