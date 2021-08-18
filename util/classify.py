@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 '''
+@AJeet Singh: singh.ajeet@nipgr.ac.in
 This script classify the tncRNA based on position and length
 '''
 import pandas as pd, sys, os
