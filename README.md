@@ -3,12 +3,10 @@
     |_   _|  _____   ____  | |__| | |  \| |   /   \
       | |   |  _  | |  __| |  ____| | \ | |  / /_\ \
       | |_  | | | | | |__  | | \ \  | |\  | | |   | |
-      |__ / |_| |_| |____| |_|  \_\ |_| \_| |_|   |_|
+      |__ / |_| |_| |____| |_|  \_\ |_| \_| |_|   |_| Toolkit
 
                                                                       
  tncRNA: tRNA derived non-coding RNAs
-
- website: http://www.nipgr.ac.in/tncRNA
                                                                       
  Bioinformatics Laboratory 202, National Institute of Plant Genome Research (NIPGR) New Delhi, INDIA
 -------------------------------------------------------------------------------------------------------
@@ -16,7 +14,7 @@
  tncRNA Toolkit is a workflow to detect tRNA derived non-coding RNAs, viz. tRF-5s, tRF-3s, tRF-1, and tRNA halves.
  Input consists of genome fasta and single-end small RNA reads fastq file.
 
- For more usage and output details, visit Manual page at "http://nipgr.ac.in/tncRNA/".
+ For more usage and output details, visit Manual page at "http://nipgr.ac.in/tncRNA/"
 
 -------------------------------------------------------------------------------------------------------
 
@@ -44,27 +42,25 @@ Python module can be easily installed by following command:
 [Note: bowtie1, and HAMR are already provided in tar package.]
        
 ## Installation:
+Download
+       
+<code>git clone https://github.com/skbinfo/tncRNA-Toolkit.git</code>
 
-Extract the tarball using the command:
-
-tar -xf tncRNA.tar.gz
-
-cd tncRNA/
+<code>cd tncRNA-Toolkit/</code>
 
 Installing bowtie1:
 
-cd util/
+<code>cd util/</code>
 
-unzip bowtie-1.3.0-src.zip
+<code>unzip bowtie-1.3.0-src.zip</code>
 
-cd bowtie-1.3.0-src/
+<code>cd bowtie-1.3.0-src/</code>
 
-make
+<code>make</code>
 
-cd ../../
+<code>cd ../../</code>
 
-[Note: HAMR-1.2 is already extraced in 'util/HAMR-1.2' and it required python2 for running. If you have python2, no need of further installation for HAMR.
-
+[Note: HAMR-1.2 is already extraced in 'util/HAMR-1.2' and it required python2 for running.]
 4. Inside the Package
 
 This distribution includes the python3 script tncRNAs.py and other scripts in the ‘util’ folder which are needed to run the main script.
