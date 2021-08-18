@@ -1,4 +1,5 @@
 #!/bin/bash
+# @AJeet Singh: singh.ajeet@nipgr.ac.in
 #This script identifiy the tRNA; filter tRNA; mask genome; create artifical genome & build bowtie indexes
 while getopts 'g:o:l:t:p:' c
 do
