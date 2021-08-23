@@ -13,6 +13,11 @@
 
  For more usage and output details, visit Manual page at "http://nipgr.ac.in/tncRNA/"
 
+
+
+[![DOI](https://zenodo.org/badge/387762887.svg)](https://zenodo.org/badge/latestdoi/387762887)
+
+
 -------------------------------------------------------------------------------------------------------
 
 ## Dependencies:
