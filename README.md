@@ -74,7 +74,7 @@ It will automatically create the bowtie index alongwith needed files in "lib/ind
 
 Note:
        
-Genome fasta header should start with '>chr[Num]', for example >chr1, >chr2 so on. Mitochondrial and plastid fasta headers also should be as >chrMt & >chrPt respectively. This will be helpful for automation of scripts, and separation of nuclear & organellar region.
+Genome fasta header should be start with '>chr[Num]', for example >chr1, >chr2 so on. Mitochondrial and plastid fasta headers also should be as >chrMt & >chrPt respectively. This will be helpful for automation of scripts, and separation of nuclear & organellar region.
 
 Once dealt with index build, user can further analyse the processed sRNA single-end data for that species.
 
