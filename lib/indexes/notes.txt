@@ -1,2 +1,2 @@
 This folder hold the indexes.
-You need to create it once.
+You need to create it once for a species.
