@@ -60,9 +60,13 @@ Installing bowtie1:
 
 <code>make</code>
 
-<code>cd ../../</code>
+<code>cd ../</code>
+ 
+<code>tar -xf HAMR-1.2.tar.gz</code>
+      
+<code>cd ../</code>
 
-[Note: HAMR-1.2 is already extraced in 'util/HAMR-1.2' and it required python2 for running.]
+[Note: HAMR-1.2 required python2 for running.]
 
 ## Usage
 
