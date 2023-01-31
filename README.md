@@ -66,7 +66,7 @@ Installing bowtie1:
       
 <code>cd ../</code>
 
-[Note: 1. Bowtie and HAMR will be excuted from 'util' directory. You still need if you have alreday globaly installed. 2. HAMR-1.2 required python2 for running.]
+[Note: 1. Bowtie and HAMR will be excuted from 'util' directory. You still need if you have already globaly installed. 2. HAMR-1.2 required python2 for running.]
 
 ## Usage
 
